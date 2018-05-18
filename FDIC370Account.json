@@ -1,0 +1,75 @@
+{
+    "type": "object",
+    "properties": {
+        "UniqueID": {
+            "type": "string"
+        },
+        "AcctIdentifier": {
+            "type": "string"
+        },
+        "RightCapacity": {
+            "type": "string",
+            "enum": {
+                "enum": [
+                    "REV",
+                    "JNT",
+                    "SGL",
+                    "RR",
+                    "CRA",
+                    "EBP",
+                    "BUS",
+                    "GOV1",
+                    "GOV2",
+                    "GOV3",
+                    "MSA",
+                    "DIT",
+                    "ANC",
+                    "PBA",
+                    "BIA",
+                    "DOE"
+                ]
+            }
+        },
+        "ProdCat": {
+            "type": "string",
+            "enum": {
+                "enum": [
+                    "DDA",
+                    "NOW",
+                    "MMA",
+                    "SAV",
+                    "CDS"
+                ]
+            }
+        },
+        "AllocatedAmt": {
+            "type": "number"
+        },
+        "AccInt": {
+            "type": "number"
+        },
+        "TotalPI": {
+            "type": "number"
+        },
+        "HoldAmount": {
+            "type": "number"
+        },
+        "InsuredAmount": {
+            "type": "number"
+        },
+        "UninsuredAmount": {
+            "type": "number"
+        },
+        "PrepaidAccount": {
+            "type": "boolean"
+        },
+        "PTAccount": {
+            "type": "boolean"
+        },
+        "PTTrans": {
+            "type": "boolean"
+        }
+    },
+    "title": "FDIC370Account",
+    "description": "The deposit ownership rights and capacities information, allocated balances, insured amounts, and uninsured amounts. The balances are in U.S. dollars. The Account file is linked to the Customer File by the UniqueID."
+}
