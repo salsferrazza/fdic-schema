@@ -1,0 +1,82 @@
+{
+    "type": "object",
+    "properties": {
+        "EntityName": {
+            "type": "string"
+        },
+        "FirstName": {
+            "type": "string"
+        },
+        "GovtID": {
+            "type": "string"
+        },
+        "GovtIDType": {
+            "type": "string",
+            "enum": {
+                "enum": [
+                    "SSN",
+                    "TIN",
+                    "DL",
+                    "ML",
+                    "PPT",
+                    "AID",
+                    "OTH"
+                ]
+            }
+        },
+        "LastName": {
+            "type": "string"
+        },
+        "MiddleName": {
+            "type": "string"
+        },
+        "NameSuffix": {
+            "type": "string"
+        },
+        "StreetAddLn1": {
+            "type": "string"
+        },
+        "StreetAddLn2": {
+            "type": "string"
+        },
+        "StreetAddLn3": {
+            "type": "string"
+        },
+        "Type": {
+            "type": "string",
+            "enum": {
+                "enum": [
+                    "IND",
+                    "BUS",
+                    "TRT",
+                    "NFP",
+                    "GOV",
+                    "OTH"
+                ]
+            }
+        },
+        "UniqueID": {
+            "type": "string"
+        },
+        "City": {
+            "type": "string"
+        },
+        "State": {
+            "type": "string"
+        },
+        "Zip": {
+            "type": "string"
+        },
+        "Email": {
+            "type": "string"
+        },
+        "OutstandingDebt": {
+            "type": "boolean"
+        },
+        "SecurityPledge": {
+            "type": "boolean"
+        }
+    },
+    "title": "FDICPart370Customer",
+    "description": "The output files will include the data necessary for the FDIC to determine the deposit insurance coverage in a resolution. A covered institution must have the capability to prepare and maintain the files detailed below. These files must be prepared in successive iterations as the covered institution receives additional data from external sources necessary to complete any pending deposit insurance calculations. The unique identifier is required in all four files to link the customer information. Do not pad leading and trailing spacing or zeros for the data fields"
+}
