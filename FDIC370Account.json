@@ -9,7 +9,6 @@
         },
         "RightCapacity": {
             "type": "string",
-            "enum": {
                 "enum": [
                     "REV",
                     "JNT",
@@ -28,11 +27,9 @@
                     "BIA",
                     "DOE"
                 ]
-            }
-        },
+          },
         "ProdCat": {
             "type": "string",
-            "enum": {
                 "enum": [
                     "DDA",
                     "NOW",
@@ -40,7 +37,6 @@
                     "SAV",
                     "CDS"
                 ]
-            }
         },
         "AllocatedAmt": {
             "type": "number"

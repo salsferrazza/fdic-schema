@@ -12,7 +12,6 @@
         },
         "GovtIDType": {
             "type": "string",
-            "enum": {
                 "enum": [
                     "SSN",
                     "TIN",
@@ -22,7 +21,6 @@
                     "AID",
                     "OTH"
                 ]
-            }
         },
         "LastName": {
             "type": "string"
@@ -44,7 +42,6 @@
         },
         "Type": {
             "type": "string",
-            "enum": {
                 "enum": [
                     "IND",
                     "BUS",
@@ -53,7 +50,6 @@
                     "GOV",
                     "OTH"
                 ]
-            }
         },
         "UniqueID": {
             "type": "string"
