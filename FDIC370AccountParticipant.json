@@ -1,0 +1,77 @@
+{
+    "type": "object",
+    "properties": {
+        "UniqueID": {
+            "type": "string"
+        },
+        "AcctIdentifier": {
+            "type": "string"
+        },
+        "RightCapacity": {
+            "type": "string",
+                "enum": [
+                    "REV",
+                    "JNT",
+                    "SGL",
+                    "RR",
+                    "CRA",
+                    "EBP",
+                    "BUS",
+                    "GOV1",
+                    "GOV2",
+                    "GOV3",
+                    "MSA",
+                    "DIT",
+                    "ANC",
+                    "PBA",
+                    "BIA",
+                    "DOE"
+                ]
+          },
+        "ProdCat": {
+            "type": "string",
+                "enum": [
+                    "DDA",
+                    "NOW",
+                    "MMA",
+                    "SAV",
+                    "CDS"
+                ]
+        },
+        "AllocatedAmt": {
+            "type": "number"
+        },
+        "ParticipantID": {
+            "type": "number"
+        },
+        "GovernmentID": {
+            "type": "number"
+        },
+        "GovernmentIDType": {
+            "type": "number"
+        },
+        "FirstName": {
+            "type": "string"
+        },
+        "MiddleName": {
+            "type": "string"
+        },
+        "LastName": {
+            "type": "string"
+        },
+        "EntityName": {
+            "type": "string"
+        },
+        "ParticipantType": {
+            "type": "string",
+                "enum": [
+                    "OC",
+                    "BEN",
+                    "BHR",
+                    "MOR",
+                    "EPP"
+                ]
+        },
+        "title": "FDIC370AccountParticipant",
+        "description": "The Account Participant File will be used by the FDIC to identify account participants, to include the official custodian, beneficiary, bond holder, mortgagor, or employee benefit plan participant, for each account and account holder. One record represents one unique account participant. The Account Participant File is linked to the Account File by CS_Unique_ID and DP_Acct_Identifier."
+}
