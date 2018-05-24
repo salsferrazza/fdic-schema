@@ -1,4 +1,5 @@
 {
+    "$schema": "http://json-schema.org/draft-03/schema#",
     "type": "object",
     "title": "FDIC370Pending",
     "CustomerUniqueID": {
@@ -22,7 +23,7 @@
     },
     "DepositAcctIdentifier": {
         "type": "string"
-    }
+    },
     "DepositRightCapacity": {
         "type": "string",
         "enum": [
