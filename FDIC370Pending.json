@@ -1,0 +1,104 @@
+{
+    "type": "object",
+    "title": "FDIC370Pending",
+    "CustomerUniqueID": {
+        "type": "string"
+    },
+    "PendingReason": {
+        "type": ""
+    },
+    "DepositAcctIdentifier": {
+        "type": ""
+    }
+    "DepositRightCapacity": {
+        "type": ""
+    },
+    "DepositProdCategory": {
+        "type": ""
+    },
+    "DepositCurBal": {
+        "type": "number"
+    },
+    "DepositAccInt": {
+        "type": "number"
+    },
+    "DepositTotalPI": {
+        "type": "number"
+    },
+    "DepositHoldAmount": {
+        "type": "number"
+    },
+    "DepositPrepaidAccount": {
+        "type": "boolean"
+    },
+    "CustomerGovtID": {
+        "type": "string"
+    },
+    "CustomerGovtIDType": {
+        "type": "string",
+        "enum": [
+            "SSN",
+            "TIN",
+            "DL",
+            "ML",
+            "PPT",
+            "AID",
+            "OTH"
+        ]
+    },
+    "CustomerFirstName": {
+        "type": "string"
+    },
+    "CustomerLastName": {
+        "type": "string"
+    },
+    "CustomerNameSuffix": {
+        "type": "string"
+    },
+    "CustomerEntityName": {
+        "type": "string"
+    },
+    "CustomerStreetAddLn1": {
+        "type": "string"
+    },
+    "CustomerStreetAddLn2": {
+        "type": "string"
+    },
+    "CustomerStreetAddLn3": {
+        "type": "string"
+    },
+    "CustomerCity": {
+        "type": "string"
+    },
+    "CustomerState": {
+        "type": "string"
+    },
+    "CustomerZIP": {
+        "type": "string"
+    },
+    "CustomerCountry": {
+        "type": "string"
+    },
+    "CustomerTelephone": {
+        "type": "string"
+    },
+    "CustomerEmail": {
+        "type": "string"
+    },
+    "CustomerOutstandingDebt": {
+        "type": "boolean"
+    },
+    "CustomerSecurityPledge": {
+        "type": "boolean"
+    },
+    "DepositParticipantAccountFlag": {
+        "type": "string"
+    },
+    "ParticipantParentCustomerID": {
+        "type": "string"
+    },
+    "DepositParticipantTransFlag": {
+        "type": "string"
+    },
+    "description": "The Pending File contains the information needed for the FDIC to contact the owner or agent requesting additional information to complete the deposit insurance calculation. Each record represents a deposit account."
+}
