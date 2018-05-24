@@ -5,16 +5,54 @@
         "type": "string"
     },
     "PendingReason": {
-        "type": ""
+        "type": "string",
+        "enum": [
+            "A",
+            "B",
+            "RAC",
+            "OI",
+            "ARB",
+            "ARBN",
+            "ARCRA",
+            "AREBP",
+            "ARM",
+            "ARO",
+            "ARTR"
+        ]
     },
     "DepositAcctIdentifier": {
-        "type": ""
+        "type": "string"
     }
     "DepositRightCapacity": {
-        "type": ""
+        "type": "string",
+        "enum": [
+            "SGL",
+            "JNT",
+            "REV",
+            "IRR",
+            "CRA",
+            "EBP",
+            "BUS",
+            "GOV1",
+            "GOV2",
+            "GOV3",
+            "MSA",
+            "DIT",
+            "ANC",
+            "PBA",
+            "BIA",
+            "DOE"
+        ]
     },
     "DepositProdCategory": {
-        "type": ""
+        "type": "string",
+        "enum": [
+            "DDA",
+            "NOW",
+            "MMA",
+            "SAV",
+            "CDS"
+        ]
     },
     "DepositCurBal": {
         "type": "number"
